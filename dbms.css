@@ -1,0 +1,114 @@
+<style>
+*{
+  outline: 0;
+}
+
+
+img{
+  scale: 100%;
+  display: block;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  z-index: 999;
+  position: sticky;
+  height: 300px;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+ul {
+  z-index: 999;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  width: 98%;
+  text-align: center;
+  list-style-type: none;
+  background-color: #333;
+}
+
+li {
+  padding-right: 30px;
+  color: white;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-radius: 50px;
+  background-color: #3acf7a;
+}
+
+div{
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  height: relative;
+  text-align: center;
+}
+
+div.one{
+  background-color: aliceblue;
+  text-align: center;
+  font-family: 'Gill Sans';
+  font-size: larger;
+}
+
+.divimgone{
+  float: left;
+  height: fit-content;
+  width: 70%;
+  display: block;
+  text-align: center;
+  margin-top: 0%;
+  opacity: 100%;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #666;
+  color: white;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+ ::-webkit-scrollbar {
+
+  }
+
+  button{
+    width: 350px;
+    height: 45px;
+    background: white;
+    border-color: red;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 600;
+  }
